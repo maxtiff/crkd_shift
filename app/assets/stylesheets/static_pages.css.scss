@@ -89,7 +89,8 @@ body {
   padding-left: 0;
   line-height: 4;
   font-size: 16px;
-  font-weight: bold;
+  /*font-weight: bold;*/
+  font-family: 'Montserrat', sans-serif;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
@@ -135,6 +136,12 @@ body {
   font-size: 80px;
   padding-bottom: 15px;
 }
+.cover-sub-head {
+  font-weight: bold;
+  font-family: 'Ovo', serif;
+  font-size: 60px;
+  padding-bottom: 15px;
+}
 .lead {
   padding: 10px 10px;
   font-family: 'Montserrat', sans-serif;
@@ -149,6 +156,7 @@ body {
   padding-top: 5px;	
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+  font-family: 'Montserrat', sans-serif;
 }
 .mastfoot-nav > li {
   padding-right: 30px;
