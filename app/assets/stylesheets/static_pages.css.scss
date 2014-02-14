@@ -3,6 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Ovo);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /*
  * Globals
@@ -85,7 +87,7 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  line-height: 3;
+  line-height: 4;
   font-size: 16px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
@@ -107,6 +109,8 @@ body {
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
   }
   .masthead-nav {
     float: right;
@@ -126,10 +130,14 @@ body {
   font-weight: bold;
 }
 .cover-heading {
-  font-weight: normal;
+  font-weight: bold;
+  font-family: 'Ovo', serif;
+  font-size: 80px;
+  padding-bottom: 15px;
 }
 .lead {
   padding: 10px 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*
