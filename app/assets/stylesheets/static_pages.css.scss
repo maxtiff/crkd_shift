@@ -10,6 +10,9 @@
  * Globals
  */
 
+ /*mixins, variables, etc. */
+ $grayMediumLight: #eaeaea;
+
 /* Links */
 a,
 a:focus,
@@ -18,10 +21,12 @@ a:hover {
 }
 
 /* Custom default button */
-.btn-default,
+.btn-default {
+  color: black;
+}
 .btn-default:hover,
 .btn-default:focus {
-  color: #000;
+  color: #300;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
@@ -155,8 +160,20 @@ body {
   padding-bottom: 15px;
 }
 .lead {
-  padding: 10px 10px;
+  padding: 10px 0px 30px;
   font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid $grayMediumLight;
+}
+.lead-sub-head {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Ovo', serif;
+  color:  #EA4E56;
+}
+.lead-sub {
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 
 /*
