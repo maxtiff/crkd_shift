@@ -3,8 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "bootstrap";
-@import url(http://fonts.googleapis.com/css?family=Ovo);
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Ovo|Abril+Fatface|Diplomata+SC|Montserrat:400,700|Goblin+One);
+
 
 /*
  * Globals
@@ -13,6 +13,9 @@
  /*mixins, variables, etc. */
  $grayMediumLight: #eaeaea;
  $softRed:  #EA4E56;
+ $tan: #E1E0B9;
+ $burntOrange: #FF5F00;
+ $gold: #FFFF00;
 
 /* Links */
 a,
@@ -151,12 +154,13 @@ body {
 }
 .cover-heading {
   font-weight: bold;
-  font-family: 'Ovo', serif;
-  font-size: 60px;
-  padding-top: 30px;
-  padding-bottom: 15px;
-  letter-spacing: 10px;
-  /*text-align: left;*/
+  font-family: 'Diplomata SC', serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  padding: 10px 0px 15px 0px;
+/*  font-size: 50px;*/
+  background: -webkit-radial-gradient($gold, $burntOrange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .cover-sub-head {
   font-weight: bold;
@@ -168,8 +172,8 @@ body {
 }
 .lead {
   padding: 10px 0px 10px;
-  /*font-family: 'Ovo', serif;*/
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ovo', serif;
+  /*font-family: 'Montserrat', sans-serif;*/
   /*text-align: left;*/
   margin-right: auto;
   margin-left: auto;
