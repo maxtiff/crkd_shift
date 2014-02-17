@@ -75,7 +75,8 @@ body {
   margin-bottom: 10px;
   margin-right: 10px;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
 }
 
 .masthead-nav > li {
@@ -110,8 +111,6 @@ body {
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 5px;
   }
   .masthead-nav {
     float: right;
@@ -125,6 +124,7 @@ body {
 
 .cover {
   padding: 0 20px;
+  background: (0,0,0);
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -175,18 +175,18 @@ body {
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  .masthead {
+/*  .masthead {
     position: fixed;
     top: 0;
   }
   .mastfoot {
     position: fixed;
     bottom: 0;
-  }
+  }*/
   /* Start the vertical centering */
-  .site-wrapper-inner {
+ /* .site-wrapper-inner {
     vertical-align: middle;
-  }
+  }*/
   /* Handle the widths */
   .masthead,
   .mastfoot,
