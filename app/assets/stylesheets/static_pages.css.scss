@@ -12,6 +12,7 @@
 
  /*mixins, variables, etc. */
  $grayMediumLight: #eaeaea;
+ $softRed:  #EA4E56;
 
 /* Links */
 a,
@@ -26,9 +27,9 @@ a:hover {
 }
 .btn-default:hover,
 .btn-default:focus {
-  color: #300;
+  color: $softRed;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
+  /*background-color: #fff;*/
   border: 1px solid #fff;
 }
 
@@ -154,26 +155,30 @@ body {
 }
 .cover-sub-head {
   font-weight: bold;
-  font-family: 'Ovo', serif;
+  /*font-family: 'Ovo', serif;*/
+  font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   padding-top: 30px;
   padding-bottom: 15px;
 }
 .lead {
   padding: 10px 0px 30px;
+  /*font-family: 'Ovo', serif;*/
   font-family: 'Montserrat', sans-serif;
   border-bottom: 1px solid $grayMediumLight;
 }
 .lead-sub-head {
   padding: 10px;
   text-align: center;
-  font-family: 'Ovo', serif;
-  color:  #EA4E56;
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Ovo', serif;*/
+  color:  $softRed;
 }
 .lead-sub {
   padding: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Ovo', serif;
+  font-size: 16px;
 }
 
 /*
