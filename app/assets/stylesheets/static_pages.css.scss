@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "bootstrap";
-@import url(http://fonts.googleapis.com/css?family=Ovo|Abril+Fatface|Diplomata+SC|Montserrat:400,700|Goblin+One);
+@import url(http://fonts.googleapis.com/css?family=Ovo|Montserrat:400,700|Geostar+Fill);
 
 
 /*
@@ -154,13 +154,10 @@ body {
 }
 .cover-heading {
   font-weight: bold;
-  font-family: 'Diplomata SC', serif;
-  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
   padding: 10px 0px 15px 0px;
-/*  font-size: 50px;*/
-  background: -webkit-radial-gradient($gold, $burntOrange);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: $tan;
 }
 .cover-sub-head {
   font-weight: bold;
@@ -209,6 +206,25 @@ body {
   padding-right: 30px;
   display: inline-block;
 }
+.mastfoot-form > li {
+  padding-right: 30px;
+  display: inline-block;
+  }
+  
+  input {
+  border: 2 black;
+  border-radius: 3px;
+  padding: 10px;
+  }
+
+/*  input[type="submit"] {
+  border: 0;
+  border-radius: 3px;
+  background: white;
+  padding: 3px 3px 3px 3px;
+  color: black;
+  }*/
+
 .mastfoot-cr > li {
 	padding-right: 30px;
 	display: inline-block;
@@ -232,20 +248,22 @@ body {
   }*/
 
   /* Start the vertical centering */
- /* .site-wrapper-inner {
+/*  .site-wrapper-inner {
     vertical-align: middle;
   }*/
 
   /* Handle the widths */
   .mastfoot,
-  .cover-container {
+  .cover-container,
+  .cover-heading {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
 
 @media (min-width: 992px) {
   .mastfoot,
-  .cover-container {
-    width: 700px;
+  .cover-container,
+  .cover-heading {
+    width: 900px;
   }
 }
