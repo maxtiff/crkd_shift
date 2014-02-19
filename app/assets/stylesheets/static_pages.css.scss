@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "bootstrap";
-@import url(http://fonts.googleapis.com/css?family=Ovo|Montserrat:400,700|Geostar+Fill);
+@import url(http://fonts.googleapis.com/css?family=Ovo|Montserrat:400,700);
 
 
 /*
@@ -199,7 +199,8 @@ body {
   margin-top: 45px;
   padding-top: 5px;	
   color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
+  /*border-top: 1px solid;*/
+  /*background-color: rgba(0,0,0,0.5);*/
   font-family: 'Montserrat', sans-serif;
   float: center;
 }

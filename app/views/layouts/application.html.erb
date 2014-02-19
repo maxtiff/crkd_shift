@@ -13,21 +13,29 @@
 
   <div class="site-wrapper-inner">
         
-    <%= render 'layouts/header' %>
+      <%= render 'layouts/header' %>
     
-  <div class="cover-container">
+    <div class="cover-container">
         	
-    <div class="inner cover">
+      <div class="inner cover">
           	
-      <%= yield %>
+        <%= yield %>
 
-      <div class="mastfoot">
-            
-      <%= render 'layouts/footer' %>
-    
       </div>
 
     </div>
+    
+    <div class="cover-container">
+      
+        <div class="mastfoot"> 
+            
+          <%= render 'layouts/footer' %>
+    
+        </div>
+
+    </div>
+
+    <!-- </div> -->
 
   </div>
 
