@@ -181,7 +181,7 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   /*font-family: 'Ovo', serif;*/
-  color:  $softRed;
+  /*color:  $softRed;*/
   /*text-align: right;*/
 }
 .lead-sub {
@@ -201,6 +201,8 @@ body {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
   font-family: 'Montserrat', sans-serif;
+  float: center;
+  width: 100%;
 }
 .mastfoot-nav > li {
   padding-right: 30px;
@@ -208,22 +210,17 @@ body {
 }
 .mastfoot-form > li {
   padding-right: 30px;
+  font-size: 20px;
+  color: $softRed;
   display: inline-block;
-  }
+}
   
-  input {
+.foot-input {
   border: 2 black;
   border-radius: 3px;
   padding: 10px;
-  }
-
-/*  input[type="submit"] {
-  border: 0;
-  border-radius: 3px;
-  background: white;
-  padding: 3px 3px 3px 3px;
-  color: black;
-  }*/
+  font-size: 18px;
+}
 
 .mastfoot-cr > li {
 	padding-right: 30px;
@@ -266,4 +263,22 @@ body {
   .cover-heading {
     width: 900px;
   }
+}
+
+/*
+ *  Jumbotron for homepage
+ */
+
+ .jumbotron {
+  padding: 75px;
+  /*margin-top: -50px;*/
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+  background-image:url('/assets/andaman.JPG');
+  background-size: cover;
+  text-shadow: 1px 1px 1px gray;
 }
