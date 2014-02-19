@@ -4,6 +4,7 @@ CrkdShift::Application.routes.draw do
   match '/about',  to: 'static_pages#about', via: 'get'
   match '/submission',  to: 'static_pages#submission', via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
+  match '/current', to: 'static_pages#current', via: 'get'
 
   # Old routes
   # get "static_pages/help"
