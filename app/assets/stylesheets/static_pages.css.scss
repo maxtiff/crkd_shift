@@ -276,7 +276,7 @@ body {
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-image: url("/assets/vanish.JPG");
+  background-image: asset-data-url("andaman.JPG");
   background-size: cover;
   text-shadow: 1px 1px 1px gray;
 }
