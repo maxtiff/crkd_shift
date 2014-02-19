@@ -14,33 +14,22 @@
   <div class="site-wrapper-inner">
         
     <div class="cover-container">
-          
+      
+      <%= render 'layouts/header' %>
+      
       <div class="inner cover">
-        
-        <%= render 'layouts/header' %>
-        
+                
         <%= yield %>
 
       </div>
 
     </div>
 
-    <div class="cover-container">
-      
-      <!-- <div class="inner cover"> -->
-
-          <%= render 'layouts/footer' %>
-      <!-- </div> -->
-
-    </div>
-
-    <!-- </div> -->
+    <%= render 'layouts/footer' %>
 
   </div>
 
 </div>
-
-<!-- </div> -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -93,6 +93,10 @@ body {
 /*
  * Header
  */
+.masthead {
+  /*background-color: rgba(0,0,0,0.5);*/
+}
+
 .masthead-brand {
   font-weight: bold;
   /*margin-top: 10px;*/
@@ -176,7 +180,7 @@ body {
   margin-left: auto;
 }
 .lead-sub-head {
-  padding: 30px 10px 10px;
+  padding: 10px 10px 10px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   /*font-family: 'Ovo', serif;*/
@@ -199,9 +203,10 @@ body {
   padding-top: 5px;	
   color: #999; /* IE8 proofing */
   /*border-top: 1px solid;*/
-  /*background-color: rgba(0,0,0,0.5);*/
+  background-color: rgba(0,0,0,0.5);
   font-family: 'Montserrat', sans-serif;
   float: center;
+  height: 100%;
 }
 .mastfoot-nav > li {
   padding-right: 30px;
@@ -257,7 +262,9 @@ body {
 }
 
 @media (min-width: 992px) {
-  .mastfoot,
+  .mastfoot {
+    width: 100%;
+  }
   .cover-container,
   .cover-heading {
     width: 900px;
