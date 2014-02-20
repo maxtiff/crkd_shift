@@ -3,8 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "bootstrap";
-@import url(http://fonts.googleapis.com/css?family=Ovo|Montserrat:400,700|Inika:400,700);
-
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Inika:400,700);
+/*Ovo|*/
 
 /*
  * Globals
@@ -12,6 +12,8 @@
 
  /*mixins, variables, etc. */
  $grayMediumLight: #eaeaea;
+ $darkGray: #1C1916;
+ /*$darkGray: #333;*/
  $softRed:  #EA4E56;
  $tan: #E1E0B9;
  $burntOrange: #FF5F00;
@@ -44,19 +46,19 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: $darkGray;
     /* Safari 4-5, Chrome 1-9 */
   /* Can't specify a percentage size? Laaaaaame. */
-  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#6d6767), to(#333));
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#6d6767), to($darkGray));
 
   /* Safari 5.1+, Chrome 10+ */
-  background: -webkit-radial-gradient(circle, #6d6767, #333);
+  background: -webkit-radial-gradient(circle, #6d6767, $darkGray);
 
   /* Firefox 3.6+ */
-  background: -moz-radial-gradient(circle, #6d6767, #333);
+  background: -moz-radial-gradient(circle, #6d6767, $darkGray);
 
   /* IE 10 */
-  background: -ms-radial-gradient(circle, #6d6767, #333);
+  background: -ms-radial-gradient(circle, #6d6767, $darkGray);
 
 /*  background-image:url('/assets/vanish.JPG');
   background-size: cover;*/
