@@ -175,9 +175,13 @@ body {
   padding: 10px 0px 10px;
   font-family: 'Ovo', serif;
   /*font-family: 'Montserrat', sans-serif;*/
-  /*text-align: left;*/
+  text-align: left;
   margin-right: auto;
   margin-left: auto;
+}
+.lead > a {
+  font-weight: bold;
+  color: $softRed;
 }
 .lead-sub-head {
   padding: 10px 10px 10px;
@@ -194,6 +198,17 @@ body {
   /*text-align: right;*/
 }
 
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  /*text-align: right;*/
+  font-style: italic;
+}
+.quote-sig {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  /*text-align: right;*/
+}
 /*
  * Footer
  */
