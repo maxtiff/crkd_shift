@@ -95,9 +95,10 @@ body {
 /*
  * Header
  */
-.masthead {
-  /*background-color: rgba(0,0,0,0.5);*/
-}
+
+/*.masthead {
+  background-color: rgba(0,0,0,0.5);
+}*/
 
 .masthead-brand {
   font-weight: bold;
@@ -169,9 +170,10 @@ body {
   font-weight: bold;
   /*font-family: 'Ovo', serif;*/
   font-family: 'Montserrat', sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   padding-top: 30px;
   padding-bottom: 15px;
+  text-align: left;
 }
 .lead {
   padding: 10px 0px 10px;
@@ -185,19 +187,26 @@ body {
   font-weight: bold;
   color: $softRed;
 }
+
 .lead-sub-head {
   padding: 10px 10px 10px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   /*font-family: 'Ovo', serif;*/
   color:  $softRed;
-  /*text-align: right;*/
+  /*text-align: left;*/
 }
 .lead-sub {
   /*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Inika', serif;
   font-size: 16px;
-  /*text-align: right;*/
+  text-align: left;
+}
+
+.inner-head {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  /*background-color: rgba(0,0,0,0.5);*/
 }
 
 .quote {
@@ -210,6 +219,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   /*text-align: right;*/
+}
+
+.ed-sig {
+  font-family: 'Inika', serif;
+  font-size: 25px;
+  text-align: right;
 }
 /*
  * Footer
@@ -294,11 +309,10 @@ body {
 
  .jumbotron {
   padding: 75px;
-  /*margin-top: -50px;*/
   margin-bottom: 30px;
-  font-size: 21px;
+/*  font-size: 21px;
   font-weight: 200;
-  line-height: 2.1428571435;
+  line-height: 2.1428571435;*/
   color: inherit;
   background-image: asset-data-url("andaman.JPG");
   background-size: cover;
