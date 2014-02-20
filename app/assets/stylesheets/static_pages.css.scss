@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "bootstrap";
-@import url(http://fonts.googleapis.com/css?family=Ovo|Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Ovo|Montserrat:400,700|Inika:400,700);
 
 
 /*
@@ -173,7 +173,7 @@ body {
 }
 .lead {
   padding: 10px 0px 10px;
-  font-family: 'Ovo', serif;
+  font-family: 'Inika', serif;
   /*font-family: 'Montserrat', sans-serif;*/
   text-align: left;
   margin-right: auto;
@@ -193,7 +193,7 @@ body {
 }
 .lead-sub {
   /*font-family: 'Montserrat', sans-serif;*/
-  font-family: 'Ovo', serif;
+  font-family: 'Inika', serif;
   font-size: 16px;
   /*text-align: right;*/
 }
