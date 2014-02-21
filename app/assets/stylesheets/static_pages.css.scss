@@ -209,6 +209,13 @@ body {
   /*background-color: rgba(0,0,0,0.5);*/
 }
 
+.inner-nav > ul > li{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 25px;
+  padding-right: 30px;
+  display: inline-block;
+}
+
 .quote {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -318,4 +325,20 @@ body {
   background-image: asset-data-url("andaman.JPG");
   background-size: cover;
   text-shadow: 1px 1px 1px gray;
+}
+
+ .jumbotron-about {
+  padding: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: 'Inika', serif;
+  font-size: 20px;
+  text-align: justify;
+/*font-size: 21px;
+  font-weight: 200;*/
+/*  line-height: 2.1428571435;*/
+  color: inherit;
+  background-image: asset-data-url("vanish.JPG");
+  background-size: cover;
+  text-shadow: 3px 3px 3px black;
 }
