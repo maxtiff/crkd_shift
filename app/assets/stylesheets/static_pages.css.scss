@@ -182,10 +182,10 @@ body {
   text-align: justify;
   margin-right: auto;
   margin-left: auto;
-}
-.lead > a {
-  font-weight: bold;
-  color: $burntOrange;
+  a {
+    font-weight: bold;
+    color: $burntOrange;
+  }  
 }
 
 .lead-sub-head {
@@ -195,6 +195,9 @@ body {
   /*font-family: 'Ovo', serif;*/
   color:  $burntOrange;
   /*text-align: left;*/
+  a {
+    color: $burntOrange;
+  }
 }
 .lead-sub {
   /*font-family: 'Montserrat', sans-serif;*/
