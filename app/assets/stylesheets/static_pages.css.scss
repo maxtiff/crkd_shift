@@ -16,7 +16,7 @@
  /*$darkGray: #333;*/
  $softRed:  #EA4E56;
  $tan: #E1E0B9;
- $burntOrange: #FF5F00;
+ $burntOrange: #E54D27;
  $gold: #FFFF00;
 
 /* Links */
@@ -32,7 +32,7 @@ a:hover {
 }
 .btn-default:hover,
 .btn-default:focus {
-  color: $softRed;
+  color: $burntOrange;
   text-shadow: none; /* Prevent inheritence from `body` */
   /*background-color: #fff;*/
   border: 1px solid #fff;
@@ -185,7 +185,7 @@ body {
 }
 .lead > a {
   font-weight: bold;
-  color: $softRed;
+  color: $burntOrange;
 }
 
 .lead-sub-head {
@@ -193,7 +193,7 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   /*font-family: 'Ovo', serif;*/
-  color:  $softRed;
+  color:  $burntOrange;
   /*text-align: left;*/
 }
 .lead-sub {
@@ -254,7 +254,7 @@ body {
 .mastfoot-form > li {
   padding-right: 30px;
   font-size: 20px;
-  color: $softRed;
+  color: $burntOrange;
   display: inline-block;
 }
   
