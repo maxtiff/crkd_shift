@@ -5,6 +5,7 @@ CrkdShift::Application.routes.draw do
   match '/submission',  to: 'static_pages#submission', via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
   match '/current', to: 'static_pages#current', via: 'get'
+ 
 
   # Old routes
   # get "static_pages/help"
@@ -67,3 +68,4 @@ CrkdShift::Application.routes.draw do
   #     resources :products
   #   end
 end
+
