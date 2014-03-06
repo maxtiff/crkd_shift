@@ -16,4 +16,8 @@ class StaticPagesController < ApplicationController
 
   def current
   end
+
+  def donate
+  end
+  
 end

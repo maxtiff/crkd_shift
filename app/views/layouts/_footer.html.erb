@@ -2,10 +2,14 @@
 <div class="inner">
   <ul class = "mastfoot-nav">
       <li><%= link_to "Masthead",   about_path %></li>
-      <!-- <li><%= link_to "About",   about_path %></li> -->
-      <!-- <li><%= link_to "Help", help_path %></li> -->
-      <li><%= link_to "Contact", "mailto:contact@crooked-shift.org" %></li>
+      <li><%= link_to "Donate",   donate_path %></li>
+      <li><%= link_to "Help", help_path %></li>
+      <li><%= link_to "Contact", contact_path %></li>
   </ul>
+  <ul class = 'mastfoot-nav'>
+    <li><%= link_to image_tag("twitter_logo.png", alt: "Twitter"), 'https://twitter.com/CrkdShift' %></li>
+    <li><%= link_to image_tag("fb_logo.png", alt: "facebook"), 'http://www.facebook.com/' %> </li>
+  </ul> 
   <ul class = "mastfoot-form">    
       <!-- <li>Sign up for our newsletter:</li> -->
 <!--       <%= form_tag('/mcsubscribe/subscribe', method: "post", id: "mcsubscribe", remote: "true") do -%>
