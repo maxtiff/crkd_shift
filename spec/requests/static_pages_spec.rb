@@ -15,7 +15,7 @@ describe "Static pages" do
 	end
   end
 
-   describe "About page" do
+  describe "About page" do
 
     it "should have the content 'About'" do
       visit '/static_pages/about'
@@ -28,7 +28,7 @@ describe "Static pages" do
 	end
   end
 
-    describe "Submission page" do
+  describe "Submission page" do
 
     it "should have the content 'Submission'" do
       visit '/static_pages/submission'
@@ -41,7 +41,7 @@ describe "Static pages" do
 	end
   end
 
-    describe "Help page" do
+  describe "Help page" do
 
     it "should have the content 'Help'" do
       visit '/static_pages/help'
@@ -54,7 +54,7 @@ describe "Static pages" do
 	end
   end
 
-    describe "Contact page" do
+  describe "Contact page" do
 
     it "should have the content 'Contact'" do
       visit '/static_pages/contact'
@@ -66,4 +66,18 @@ describe "Static pages" do
       expect(page).to have_title("Crooked/Shift | Contact")
 	end
   end
+
+  describe "Donate page" do
+
+    it "should have the content 'Donate'" do
+      visit '/static_pages/donate'
+      expect(page).to have_content('donate')
+    end
+
+    it "should have the right title" do
+      visit '/static_pages/donate'
+      expect(page).to have_title("Crooked/Shift | Donate")
+  end
+  end
+  
 end
