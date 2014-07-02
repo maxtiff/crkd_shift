@@ -19,5 +19,13 @@ class StaticPagesController < ApplicationController
 
   def donate
   end
+
+  def download_pdf
+  send_file(
+    "#{Rails.root}/public/issue1.pdf",
+    filename: "issue1.pdf",
+    type: "application/pdf"
+  )
+end
   
 end
