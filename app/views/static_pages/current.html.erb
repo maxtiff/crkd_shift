@@ -1,6 +1,4 @@
 <% provide(:title, 'Current Issue') %>
 <h2 class="lead-sub-head">Download Issue #1</h2>
-<li><%= link_to image_tag("crookedshift.png", alt: "Issue 1"), image_path("/issue1.pdf", alt: "Issue 1") %></li>
-<p>
-
-</p>
+<link href="<%= asset_path("issue1.pdf") %>" rel="issue1 pdf" type="application/pdf" />
+<%= link_to image_tag("crookedshift.png", alt: "Issue 1"), asset_path("issue1.pdf") %>
