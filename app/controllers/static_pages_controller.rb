@@ -19,5 +19,9 @@ class StaticPagesController < ApplicationController
 
   def donate
   end
+
+  def pdf
+    send_file Rails.root.join('public', 'issue1.pdf'), :type=>"application/pdf", :x_sendfile=>true
+  end
   
 end
