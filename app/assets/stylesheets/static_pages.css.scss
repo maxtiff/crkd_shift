@@ -187,7 +187,17 @@ body {
     color: $burntOrange;
   }  
 }
-
+.lead-announce-head {
+  padding: 10px 10px 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Ovo', serif;*/
+  color:  white;
+  /*text-align: left;*/
+  a {
+    color: $burntOrange;
+  }
+}
 .lead-sub-head {
   padding: 10px 10px 10px;
   text-align: center;
