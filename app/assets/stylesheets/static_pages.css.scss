@@ -16,7 +16,7 @@
  /*$darkGray: #333;*/
  $softRed:  #EA4E56;
  $tan: #E1E0B9;
- $burntOrange: #E56B42;
+ $burntOrange: #DE4536;
  $gold: #FFFF00;
 
 /* Links */
@@ -185,7 +185,7 @@ body {
   a {
     font-weight: bold;
     color: $burntOrange;
-  }  
+  }
 }
 .lead-announce-head {
   padding: 10px 10px 10px;
@@ -252,7 +252,7 @@ body {
 
 .mastfoot {
   margin-top: 45px;
-  padding-top: 5px;	
+  padding-top: 5px;
   color: #999; /* IE8 proofing */
   /*border-top: 1px solid;*/
   background-color: rgba(0,0,0,0.5);
@@ -270,7 +270,7 @@ body {
   color: $burntOrange;
   display: inline-block;
 }
-  
+
 .foot-input {
   border: 2 black;
   border-radius: 3px;
@@ -328,7 +328,7 @@ body {
  */
 
  .jumbotron {
-  padding: 75px;
+  padding: 70px;
   /*margin-top: 10px;*/
   margin-bottom: 30px;
 /*font-size: 21px;
@@ -350,4 +350,3 @@ body {
   background-image: asset-data-url("andaman.JPG");
   background-size: cover;
 }
-
