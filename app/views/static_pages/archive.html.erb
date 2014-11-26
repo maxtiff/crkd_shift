@@ -1,7 +1,16 @@
 <% provide(:title, 'Archived Issues') %>
 <h1 class="cover-sub-head">Archived Issues</h1>
-<h2 class="lead-sub-head">Download Issue #1</h2>
-<%= link_to image_tag("crookedshift.png", alt: "Issue 1"), image_path('Issue1.pdf') %>
-<br>
-<h2 class="lead-sub-head">Download Issue #2</h2>
-<%= link_to image_tag("crookedshift2.jpg", alt: "Issue 2"), image_path('Issue2.pdf') %>
+<div class="row inline">
+  <div class="span4">
+  <div class="col-md-4">
+    <h2 class="lead-sub-head">Download Issue #1</h2>
+    <%= link_to image_tag("crookedshift_thumb.png", alt: "Issue 1"), image_path('Issue1.pdf') %>
+  </div>
+</div>
+  <div class="span4">
+  <div class="col-md-4">
+    <h2 class="lead-sub-head">Download Issue #2</h2>
+    <%= link_to image_tag("crookedshift2_thumb.jpg", alt: "Issue 2"), image_path('Issue2.pdf') %>
+  </div>
+  </div>
+</div>
